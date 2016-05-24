@@ -1,6 +1,5 @@
 # tiea345
 
+University of Jyväskylä
 TIEA345 IoT-prototyypit
-tänne pitäs tulla
-kurssikoodit
-oppimispäiväkirja
+Git kurssitehtävien palautusta varten.
