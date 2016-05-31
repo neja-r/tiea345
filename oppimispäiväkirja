@@ -1,5 +1,14 @@
 25.5. DEMO 1 
 
+- [X] Laitteet kuitattu
+- [X] Raspberryn konfigurointi
+- [X] Raspberry päivitetty
+- [X] Raspberry liitetty verkkoon
+- [X] Salasana vaihdettu
+- [X] Github-repo
+- [ ] Raspbian image kirjoitettu
+- [X] Etäkäyttö
+
 Uutta oli oikeastaan kaikki: laitteiden kuittaaminen, Raspbianin asentaminen ja päivittäminen ja sen liittäminen verkkoon sekä
 yhteyden ottaminen Raspberryyn omalta läppäriltä.
 Hankalalta/epäselvältä tuntui aluksi laitteen liittäminen verkkoon sekä etäkäytön toimintaan saaminen VNC:n avulla.
