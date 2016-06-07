@@ -1,4 +1,4 @@
-25.5. DEMO 1 
+25.5.2016 DEMO 1 
 
 - [X] Laitteet kuitattu
 - [X] Raspberryn konfigurointi
@@ -13,3 +13,15 @@ Uutta oli oikeastaan kaikki: laitteiden kuittaaminen, Raspbianin asentaminen ja 
 yhteyden ottaminen Raspberryyn omalta läppäriltä.
 Hankalalta/epäselvältä tuntui aluksi laitteen liittäminen verkkoon sekä etäkäytön toimintaan saaminen VNC:n avulla.
 Aikaa demo 1:een kului alle 4 tuntia, jos laskee mukaan 2 tunnin Raspbianin päivitykset.
+
+**********************************
+
+7.6.2016 DEMO 2
+[x] Tehtävä 3: ledi
+[x] Tehtävä 4: painike ja liikkeentunnistin
+[x] Tehtävä 5: liikennevalot
+[x] Bonus 3: merkkivalo + painikkeen alasveto
+[x] Bonus 4: liikkeentunnistin liikennevaloihin
+
+Uutena tuli Pythonilla ohjelmointi, minkä vuoksi tämän demon alkuun saaminen tuntui työläältä.
+Aikaa kului piuhojen pätkimisen mukaan lukien alle 6 tuntia.
