@@ -1,0 +1,55 @@
+Referenssilauta Demo 2
+Liikennevalokytkennät
+
+autolijoiden valot:
+punainen led:
+* #26: B39->A2
+* B1 (led) B2
+* A1 (vastus) ulkokeha
+* ulkokeha ->C53: GND
+
+keltainen led:
+* #19: B40->A5
+* B4 (led) B5
+* A4 (vastus) ulkokehä
+* ulkokeha ->C53: GND
+
+vihrea led:
+* #13: B41->A8
+* B7(led) B8
+* B7 (vastus) ulkokeha
+* ulkokeha ->C53: GND
+
+jalankulkijoiden valot:
+punainen led:
+* #6: B42 -> A15
+* B14 (led) B15
+* A14 (vastus) ulkokeha
+* ulkokeha ->C53: GND
+
+vihrea led:
+* #5: B43 -> A18
+* B17 (led)  B18
+* A17 (vastus) ulkokeha
+* ulkokeha ->C53: GND
+
+keltainen merkkivalo:
+* #20: J39 -> A26
+* B25 (led) B26
+* A25 (vastus) ulkokeha
+* ulkokeha ->C53: GND
+
+painike:
+* #21: I38 -> F5
+* painike: G3&G5 -> J3&J5
+* F3 -> sisakeha
+* GND: J55 -> ulkokeha
+* ulkokeha (vastus) J38
+* 5.0v: I57 -> sisakeha
+
+pir:
+* #12 -> OUT (keltainen)
+* 5.0v: I57 -> sisakeha
+* GND: J55 -> ulkokeha
+* +5v (punainen) sisakeha
+* GND (musta) ulkokeha
