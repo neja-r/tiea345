@@ -1,5 +1,5 @@
 #Adafruitin Python-kirjastosta loytyva esimerkkikoodi lampotila- ja kosteussensorin mittausten siirtamisesta google sheetsiin.
-#Linkki Google sheets taulukkoon: 
+#Linkki Google sheets taulukkoon: https://docs.google.com/spreadsheets/d/1H7qVP9tC1-ufkjXAH-iL7cWEo4gXCzhANfxp0A1Nvzo/edit?usp=sharing
 import json
 import sys
 import time
