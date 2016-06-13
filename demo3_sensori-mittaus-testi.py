@@ -1,3 +1,4 @@
+#Adafruitin Python kirjastosta loytyva esimerkki sensorin datan saamisesta ruutuun
 import Adafruit_DHT
 
 sensor = Adafruit_DHT.DHT11
