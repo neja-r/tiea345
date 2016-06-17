@@ -12,3 +12,6 @@ pre_capture 2
 post_capture 10
 event_gap 5
 
+Kun Motion havaitsee liikettä, kuvataan 10s video:
+max_movie_time 10
+
