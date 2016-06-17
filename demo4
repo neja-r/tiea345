@@ -1,0 +1,14 @@
+###MOTION-TEHTÄVÄT###
+
+Muutokset conf-tiedostoon:
+Kuvien tallennuskansion vaihto:
+target_dir /home/pi/Pictures
+
+Lokien tallennustiedoston vaihto:
+logfile /home/pi/motion_logs/motion.log
+
+Motion tallentaa 2 kuvaa ennen liikettä ja 5s ajan liikkeen jälkeen:
+pre_capture 2
+post_capture 10
+event_gap 5
+
