@@ -39,3 +39,20 @@ Aikaa kului piuhojen pätkimisen mukaan lukien alle 6 tuntia.
 Uutena tuli sensorin datan lähettäminen Google Sheetsiin käyttämällä Google OAuth credentials-järjestelmää.
 Uutta oli myös cronin hyödyntäminen ohjelman suorittamiseksi tiettyyn aikaan.
 Aikaa kului alle 4 tuntia.
+
+**********************************
+
+20.6.2016 DEMO 4
+[x] Tehtävä 11: Motion asennettu
+[x] Tehtävä 12: Motion tallentaa kuvat ja lokin eri tiedostoon kuin oletustiedosto. 
+[x] Tehtävä 13: Motion tallentaa 2 kuvaa ennen liikettä ja 5 sekuntia liikkeen jälkeen
+[x] Tehtävä 14: Kun Motion havaitsee liikettä, kuvataan 10 sekunnin video
+[x] Tehtävä 15: OpenCV asennettu onnistuneesti
+[x] Tehtävä 16: Kahden kuvan piirteiden vertailu ORB-tunnistimella
+[x] Tehtävä 17: Kasvojen etsiminen kuvasta Haar-Cascadella.
+[x] Bonus 7: Kun Motion havaitsee liikettä kuvattavan alueen keskellä, pikamera kuvaa 15 sekunnin videon tapahtuneesta
+[x] Bonus 8: Ota kuva pikameralla ja tunnista kasvot siitä.
+
+Uutta oli Motionin käyttö ja OpenCV. OpenCV:n asentamisen kanssa oli hieman haastetta (site-packages ja dist-packages menivät
+jotenkin sekaisin). Haastavaa oli myös kuvien piirteiden vertailu.
+Aikaa kului pakettien latailuun ja asennukseen 4-5 tuntia. Tehtävien tekemiseen meni n. 6 tuntia.
