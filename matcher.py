@@ -1,9 +1,10 @@
+#Lahde: http://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_feature2d/py_matcher/py_matcher.html
 import numpy as np
 import cv2
 from matplotlib import pyplot as plt
 
-img1 = cv2.imread('raspikuva1.png',0)          # queryImage
-img2 = cv2.imread('raspikuva2.png',0) # trainImage
+img1 = cv2.imread('raspikuva1.png',0)
+img2 = cv2.imread('raspikuva2.png',0) 
 
 # Initiate SIFT detector
 orb = cv2.ORB_create()
@@ -24,4 +25,4 @@ matches = sorted(matches, key = lambda x:x.distance)
 # Draw first 10 matches.
 img3 = cv2.drawMatches(img1,kp1,img2,kp2,matches[:10], None, flags=2)
 
-plt.imsave("kuva3.png",img3)
+plt.imsave("kuva3.png",img3) #tallennetaan kuva
