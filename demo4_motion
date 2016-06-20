@@ -1,17 +1,23 @@
 ###MOTION-TEHTÄVÄT###
 
 Muutokset conf-tiedostoon:
+
+**Tehtävä 12**
 Kuvien tallennuskansion vaihto:
 target_dir /home/pi/Pictures
 
 Lokien tallennustiedoston vaihto:
 logfile /home/pi/motion_logs/motion.log
 
+**Tehtävä 13**
 Motion tallentaa 2 kuvaa ennen liikettä ja 5s ajan liikkeen jälkeen:
 pre_capture 2
 post_capture 10
 event_gap 5
 
+**Tehtävä 14**
 Kun Motion havaitsee liikettä, kuvataan 10s video:
-max_movie_time 10
-
+framerate 25
+output_pictures off
+pre-capture 0
+post-capture 250
