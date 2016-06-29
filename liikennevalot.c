@@ -1,4 +1,6 @@
-#include <stdio.h>    // Used for printf() statements
+//Käännösohje: gcc -o liikennevalot liikennevalot.c -l wiringPi
+// sudo ./liikennevalot
+#include <stdio.h> 
 #include <wiringPi.h> // Include WiringPi library!
 #include <time.h>
 
@@ -147,8 +149,3 @@ int main(void)
     
     return 0;
 }
-
-/* Kun jätin sleepit niille kuuviin paikkoihin: autoilijoiden keltainen alkaa vilkkua
-kun ollaan oletustilassa (autoille vihreä ja jklle punainen)
-Kun otin sleepit pois, autoilijoiden keltainen tosi himmeä, vilkkui tosi himmeänä
-*/
