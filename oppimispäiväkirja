@@ -56,3 +56,13 @@ Aikaa kului alle 4 tuntia.
 Uutta oli Motionin käyttö ja OpenCV. OpenCV:n asentamisen kanssa oli hieman haastetta (site-packages ja dist-packages menivät
 jotenkin sekaisin). Haastavaa oli myös kuvien piirteiden vertailu.
 Aikaa kului pakettien latailuun ja asennukseen 4-5 tuntia. Tehtävien tekemiseen meni n. 6 tuntia.
+
+**********************************
+29.6.2016 DEMO 5
+[x] Tehtävä 18: Sytytä ledi aina kun PIR havaitsee liikettä ja sammuta se liikkeen loputtua.
+[x] Tehtävä 19: Demon 2 liikennevalot painikkeella ja liiketunnistimella toteutettuna
+
+Uutena tuli c:llä wiringPi kirjaston käyttö. Netissä oli hyvin ohjeita wiringPi-kirjaston ja c-kielen käytöstä,
+joten koodaaminen c:llä ei tuntunut kovin vaikealta. Ainoastaan yhden pikkuvirheen löytäminen kummallisesti 
+toimivassa koodissa oli vaikeaa.
+Aikaa kului 5-6 tuntia.
