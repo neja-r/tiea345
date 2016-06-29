@@ -1,11 +1,12 @@
-#include <stdio.h>    // Used for printf() statements
+//käännösohje: gcc -o led led.c -l wiringPi
+// sudo ./led
+#include <stdio.h>    
 #include <wiringPi.h> // Include WiringPi library!
 #include <time.h>
 #include <stdlib.h>
 
 // Pin number declarations. We're using the Broadcom chip pin numbers.
 const int merkki = 20; //keltainen led
-const int painike = 21;
 const int pir = 12; // liiketunnistin pir
 const int akt = 1; //active value = 1
 
@@ -22,7 +23,6 @@ int main(void)
     wiringPiSetupGpio(); // Initialize wiringPi -- using Broadcom pin numbers
 
     pinMode(merkki, OUTPUT); // led outputiksi
-    pinMode(painike, INPUT);     // painike inputiksi
     pinMode(pir, INPUT);      // pir inputiksi
     //pullUpDnControl(butPin, PUD_UP); Enable pull-up resistor on button
     int tila = akt; //Init state to HIGH
@@ -46,7 +46,6 @@ int main(void)
 
     //CLEANUP: kaikki inputiksi lopuksi
     pinMode(merkki, INPUT);
-    pinMode(painike, INPUT);
     pinMode(pir, INPUT);
 
     return 0;
